@@ -1,1 +1,145 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    max-width:100%;
+    border:1px solid grey;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.8rem;
+    color:#4f4f4f;
+    line-height:1.5;
+    font-family: 'PT Sans', sans-serif;
+}
+h1, h2, h3{
+    font-family: 'Nunito', sans-serif;
+}
+h1{
+    font-size:8rem;
+    margin-left: 3%;
+    border: none;
+}
+h2{
+    font-size:5rem;
+}
+h3 {
+    font-size: 3rem;
+}
+p {
+   margin: 0 10% 10% 10%;
+   border: none;
+
+}
+.topish{
+    margin:0 0 0 10%;
+    border: none;
+}
+section{
+    padding:4% 0;
+    border: none;
+}
+a{
+    text-decoration:none;
+    color:white;
+    
+}
+nav {
+    display: flex;
+    margin-left:7%;
+    background-color: black;
+    color: white;
+    margin-right: 65%;
+    border: none;
+    
+}
+nav a{
+    padding: 2% 5%;
+}
+.topping{ 
+    margin: 10%;
+    border: none;
+}
+.top {
+display: flex;
+border: none;
+
+}
+.img {
+margin-left: 20%;
+border: none;
+}
+.project-imgs{
+    display:flex;
+    justify-content:space-evenly;
+    flex-flow: row wrap;
+    border: none;
+    align-items: center;
+
+}
+.boxes {
+    width: 20%;
+    padding: 3%;
+    border: none;
+    align-items: center;
+}
+footer{
+    text-align: center;
+    
+}
+#project{
+    border:2px solid black;
+    width: 25%;
+    text-align: center;
+}
+h4{
+    border: 2px solid black;
+    width: 10%
+    text-align: center;
+
+}
+section{
+    border: none;
+}
